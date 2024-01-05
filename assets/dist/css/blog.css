@@ -158,13 +158,13 @@ h1, h2, h3, h4, h5, h6 {
   .d-lg-block {
     display: block !important;
   }
-
-  /* Ajuste para garantir que a imagem fique acima do texto em dispositivos móveis */
-  .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative .col-md-6 {
-    flex-direction: column;
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex-direction: column !important;
   }
 
-  .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative .col-md-6 img {
-    border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
+  .col-md-6 img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
   }
 }
