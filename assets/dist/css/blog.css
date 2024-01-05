@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-img-right {
-  max-width: 100%; /* Alteração para garantir que a imagem não ultrapasse a largura da coluna */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
   height: auto;
   border-radius: 0 3px 3px 0;
 }
