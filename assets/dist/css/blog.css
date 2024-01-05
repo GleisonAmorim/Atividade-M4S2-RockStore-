@@ -159,27 +159,13 @@ h1, h2, h3, h4, h5, h6 {
     display: block !important;
   }
 
-  /* Adiciona margem superior para separar a imagem do texto */
+  /* Ajuste para garantir que a imagem fique acima do texto em dispositivos móveis */
   .col-md-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0;
+    order: 2;
   }
-
-  .row .col-md-6:last-child {
-    margin-top: 1rem;
+  
+  .col-md-6 img {
+    width: 100%;
+    border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
   }
-}
-
-/* Footer */
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #727272;
-  text-align: center;
-  background-color: #2b2929;
-  border-top: .05rem solid #e5e5e5;
-}
-
-.blog-footer p:last-child {
-  margin-bottom: 0;
 }
