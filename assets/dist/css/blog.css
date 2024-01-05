@@ -99,7 +99,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-img-right {
-  height: auto; /* Alteração feita para tornar a imagem responsiva */
+  max-width: 100%; /* Alteração para garantir que a imagem não ultrapasse a largura da coluna */
+  height: auto;
   border-radius: 0 3px 3px 0;
 }
 
@@ -142,19 +143,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .blog-post-title {
-    font-size: 1.5rem; /* Ajuste conforme necessário */
+    font-size: 1.5rem;
   }
 
   .nav-scroller .nav-link {
     font-size: 0.8rem;
   }
 
-  .card-img-right {
-    border-radius: 0;
-  }
-
   .h-md-250 {
-    height: 150px;
+    height: auto; /* Ajuste para a altura ser automática em telas menores */
   }
 }
 
