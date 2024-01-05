@@ -137,7 +137,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
 }
 
-
 @media (max-width: 767px) {
   .blog-header-logo {
     font-size: 1.2em;
@@ -163,10 +162,6 @@ h1, h2, h3, h4, h5, h6 {
   .col-auto img {
     width: 100%;
     border-radius: 3px 3px 0 0;
-  }
-
-  /* Ajuste para garantir que a imagem fique acima do texto em dispositivos móveis */
-  .col-auto img {
     order: -1; /* Mover a imagem para cima na ordem de exibição */
     margin-bottom: 10px; /* Adicionar margem abaixo da imagem para espaçamento */
   }
