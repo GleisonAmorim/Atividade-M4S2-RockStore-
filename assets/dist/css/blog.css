@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-img-right {
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
+  max-width: 100%;
   height: auto;
   border-radius: 0 3px 3px 0;
 }
@@ -152,6 +152,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .h-md-250 {
     height: auto; /* Ajuste para a altura ser automática em telas menores */
+  }
+
+  /* Exibir a div oculta em telas menores */
+  .d-lg-block {
+    display: block !important;
   }
 }
 
