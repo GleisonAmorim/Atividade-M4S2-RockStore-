@@ -153,3 +153,48 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
+/* Estilos para telas maiores que 768 pixels */
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px; 
+  }
+
+  .blog-header-logo {
+    font-size: 2.5em; 
+  }
+
+  .nav-scroller .nav-link {
+    font-size: 1rem; 
+  }
+
+  .card-img-right {
+    border-radius: 3px 0 0 3px;
+  }
+
+  .h-md-250 {
+    height: 250px; 
+  }
+}
+
+/* Estilos para telas menores que 768 pixels */
+@media (max-width: 767px) {
+  .blog-header-logo {
+    font-size: 1.8em; 
+  }
+
+  .nav-scroller .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .card-img-right {
+    border-radius: 0; 
+  }
+
+  .h-md-250 {
+    height: 150px; 
+  }
+}
+
+
