@@ -154,11 +154,6 @@ h1, h2, h3, h4, h5, h6 {
     height: auto; /* Ajuste para a altura ser automática em telas menores */
   }
 
-  /* Exibir a div oculta em telas menores */
-  .d-lg-block {
-    display: block !important;
-  }
-@media (max-width: 767px) {
   .col-md-6 {
     flex-direction: column !important;
   }
