@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(to right, #000000, #000000); /* Gradiente preto para cinza escuro */
-  color: #ffffff; /* Texto em branco para contrastar com o fundo escuro */
+  background: linear-gradient(to right, #000000, #000000);
+  color: #ffffff;
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #000000; /* Cabeçalho preto */
+  background-color: #000000;
   padding: 10px 0;
 }
 
@@ -22,7 +22,6 @@ header {
   font-size: 2em;
   margin: 0;
 }
-
 
 .link-secondary {
   color: #ffffff;
@@ -33,22 +32,21 @@ header {
   color: #ffffff;
   border-color: #ffffff;
 }
-/* stylelint-disable selector-list-comma-newline-after */
 
 .text-custom-blue {
-  color: #007bff; /* Azul */
+  color: #007bff;
 }
 
 .text-custom-pink {
-  color: #ff69b4; /* Rosa */
+  color: #ff69b4;
 }
 
 .text-custom-green {
-  color: #28a745; /* Verde */
+  color: #28a745;
 }
 
 .text-custom-gold {
-  color: #ffd700; /* Dourado */
+  color: #ffd700;
 }
 
 .blog-header {
@@ -58,7 +56,7 @@ header {
 
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  color: red; /* Use 'color' para definir a cor do texto */
+  color: red;
   font-size: 2.25rem;
 }
 
@@ -67,7 +65,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .display-4 {
@@ -112,12 +110,15 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 auto;
 }
 
-.h-250 { height: 250px; }
+.h-250 {
+  height: 250px;
+}
 @media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+  .h-md-250 {
+    height: 250px;
+  }
 }
 
-/* Pagination */
 .blog-pagination {
   margin-bottom: 4rem;
 }
@@ -125,9 +126,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2rem;
 }
 
-/*
- * Blog posts
- */
 .blog-post {
   margin-bottom: 4rem;
 }
@@ -140,9 +138,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #727272;
 }
 
-/*
- * Footer
- */
 .blog-footer {
   padding: 2.5rem 0;
   color: #727272;
@@ -152,4 +147,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+/* Responsividade para telas menores que 768 pixels */
+@media (max-width: 767px) {
+  .blog-header-logo {
+    font-size: 1.8em;
+  }
+
+  .nav-scroller .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .card-img-right {
+    border-radius: 0;
+  }
+
+  .h-md-250 {
+    height: 150px;
+  }
 }
