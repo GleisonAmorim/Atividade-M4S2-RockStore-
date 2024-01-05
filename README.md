@@ -1,5 +1,7 @@
 # Página Inicial - Loja Virtual de Roupas de Rock
 
+![2024-01-05 14-50-37](https://github.com/GleisonAmorim/Atividade-M4S2-RockStore-/assets/54336609/ef9b9db6-6dcd-4060-8ff6-9470a7532706)
+
 ## Menu
 - Moda Masculina
 - Moda Feminina
