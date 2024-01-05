@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 .card-img-right {
   max-width: 100%;
   height: auto;
-  border-radius: 3px 3px 0 0; /* Alterado para arredondar somente a parte superior da imagem */
+  border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
 }
 
 .flex-auto {
@@ -160,12 +160,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /* Ajuste para garantir que a imagem fique acima do texto em dispositivos móveis */
-  .col-md-6 {
-    order: 2;
+  .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative .col-md-6 {
+    flex-direction: column-reverse;
   }
-  
-  .col-md-6 img {
-    width: 100%;
-    border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
+
+  .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative .col-md-6 img {
+    border-radius: 0 0 3px 3px; /* Arredondar somente a parte inferior da imagem */
   }
 }
