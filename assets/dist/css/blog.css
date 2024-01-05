@@ -174,7 +174,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsividade para telas menores que 768 pixels */
 @media (max-width: 767px) {
   .blog-header-logo {
-    font-size: 1.8em;
+    font-size: 1.2em; 
+  }
+    .blog-post-title {
+    font-size: 1.5rem; /* Ajuste conforme necessário */
   }
 
   .nav-scroller .nav-link {
