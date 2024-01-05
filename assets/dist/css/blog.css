@@ -162,4 +162,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     border-radius: 3px 3px 0 0;
   }
+
+  /* Exibir a div oculta em telas menores */
+  .col-auto {
+    display: block !important;
+  }
+
+  .col-auto img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+  }
 }
