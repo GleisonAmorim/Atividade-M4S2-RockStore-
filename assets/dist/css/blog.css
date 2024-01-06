@@ -157,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Exibir a div oculta em telas menores */
   .d-lg-block {
     display: block !important;
+    order: 2; /* Ajuste a ordem para colocar a imagem abaixo do texto */
   }
 
   /* Adiciona margem superior para separar a imagem do texto */
@@ -170,7 +171,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1rem;
   }
 }
-
 /* Footer */
 .blog-footer {
   padding: 2.5rem 0;
