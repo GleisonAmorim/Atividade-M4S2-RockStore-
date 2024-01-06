@@ -187,7 +187,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #727272;
   text-align: center;
   background-color: #2b2929;
-  border-top: .05rem solid #e5e5e5;
+  border-top: 0.05rem solid #e5e5e5;
+  z-index: 1000; /* Certifique-se de que o z-index seja maior que o z-index dos outros elementos, se houver */
 }
 
 .blog-footer p:last-child {
