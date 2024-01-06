@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 150px; /* Defina a altura máxima desejada */
   border-radius: 3px;
   order: -1;
-  margin-left: 10px; /* Ajuste o valor conforme necessário para afastar a imagem do canto direito */
+  margin: 10px; /* Ajuste o valor conforme necessário para afastar a imagem de todas as bordas */
 }
   .row .col-md-6:last-child {
     margin-top: 1rem;
