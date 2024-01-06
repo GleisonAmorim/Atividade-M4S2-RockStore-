@@ -154,18 +154,6 @@ h1, h2, h3, h4, h5, h6 {
     height: auto; /* Ajuste para a altura ser automática em telas menores */
   }
 
-  /* Exibir a div oculta em telas menores */
-  .d-lg-block {
-    display: block !important;
-    order: 3; /* Ajuste a ordem para colocar a imagem abaixo do texto */
-  }
-
-  /* Adiciona margem superior para separar a imagem do texto */
-  .col-md-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0;
-  }
 /* Adiciona margem para afastar as imagens dos cantos */
 .col-auto img {
   width: 100%;
