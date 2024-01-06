@@ -104,9 +104,37 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
 }
 
-.h-md-250 img {
-  width: 100%;
-  border-radius: 3px 3px 0 0;
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/* Blog posts */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
 }
 
 @media (max-width: 767px) {
@@ -122,8 +150,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.8rem;
   }
 
-  .h-md-250 img {
-    order: -1; /* Mover a imagem para cima na ordem de exibição */
-    margin-bottom: 10px; /* Adicionar margem abaixo da imagem para espaçamento */
+  .h-md-250 {
+    height: auto; /* Ajuste para a altura ser automática em telas menores */
+  }
+
+  /* Exibir a div oculta em telas menores */
+  .d-lg-block {
+    display: block !important;
+  }
+
+  /* Ajuste para garantir que a imagem fique acima do texto em dispositivos móveis */
+  .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative .col-md-6 {
+    flex-direction: column;
+  }
+
+  .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative .col-md-6 img {
+    border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
   }
 }
