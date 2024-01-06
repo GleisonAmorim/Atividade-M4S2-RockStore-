@@ -104,37 +104,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px 3px 0 0; /* Arredondar somente a parte superior da imagem */
 }
 
-.flex-auto {
-  flex: 0 0 auto;
-}
-
-.h-250 {
-  height: 250px;
-}
-
-@media (min-width: 768px) {
-  .h-md-250 {
-    height: 250px;
-  }
-}
-
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
-/* Blog posts */
-.blog-post {
-  margin-bottom: 4rem;
-}
-
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
+.h-md-250 img {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
 }
 
 @media (max-width: 767px) {
@@ -150,28 +122,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.8rem;
   }
 
-  .h-md-250 {
-    height: auto; /* Ajuste para a altura ser automática em telas menores */
-  }
-
-  /* Exibir a div oculta em telas menores */
-  .col-auto {
-    display: block !important;
-  }
-
-  .col-auto img {
-    width: 100%;
-    border-radius: 3px 3px 0 0;
+  .h-md-250 img {
     order: -1; /* Mover a imagem para cima na ordem de exibição */
     margin-bottom: 10px; /* Adicionar margem abaixo da imagem para espaçamento */
-  }
-
-  .col-md-6 {
-    flex-direction: column !important;
-  }
-
-  .col-md-6 img {
-    width: 100%;
-    border-radius: 3px 3px 0 0;
   }
 }
