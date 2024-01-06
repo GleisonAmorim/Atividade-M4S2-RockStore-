@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 150px; /* Defina a altura máxima desejada */
   border-radius: 3px;
   order: -1;
-  margin: 10px 100px 60px 10px; /* Ajuste os valores conforme necessário para afastar a imagem do canto superior direito */
+  margin: 10px 20px 00px 100px; /* Ajuste os valores conforme necessário para afastar a imagem do canto superior direito */
 }
 
 
