@@ -153,15 +153,27 @@ h1, h2, h3, h4, h5, h6 {
   .h-md-250 {
     height: auto; /* Ajuste para a altura ser automática em telas menores */
   }
+/* Exibir a div oculta em telas menores */
+  .d-lg-block {
+    display: block !important;
+    order: 1; /* Ajuste a ordem para colocar a imagem abaixo do texto */
+  }
 
+  /* Adiciona margem superior para separar a imagem do texto */
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
 /* Adiciona margem para afastar as imagens dos cantos */
 .col-auto img {
   width: 100%;
-  max-height: 250px; /* Defina a altura máxima desejada */
+  max-height: 150px; /* Defina a altura máxima desejada */
   border-radius: 3px;
   order: -1;
   margin-bottom: 10px;
   margin: 10px;
+  margin-right: 10px;
 }
   .row .col-md-6:last-child {
     margin-top: 1rem;
