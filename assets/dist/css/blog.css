@@ -169,10 +169,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Adiciona margem para afastar as imagens do canto superior direito do container */
 .col-auto img {
   width: 100%;
-  max-height: 150px; /* Defina a altura máxima desejada */
+  max-height: 200px; /* Defina a altura máxima desejada */
   border-radius: 3px;
   order: -1;
-  margin: 20px 10px 00px 10px; /* Ajuste os valores conforme necessário para afastar a imagem do canto superior direito */
+  margin: 20px 10px 00px 30px; /* Ajuste os valores conforme necessário para afastar a imagem do canto superior direito */
 }
 
 
